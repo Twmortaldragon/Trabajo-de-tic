@@ -1,0 +1,17 @@
+*{
+    background-color:grey;
+}
+#Título{
+    color:red;
+    font-size: 5em;
+} 
+.principal-article__section{
+    color:violet ;
+    font-style: italic;
+    font-size: 1.5em ;
+}  
+.principal-article__section:hover{
+    color:skyblue;
+    font-style: bold;
+    font-size: 1.5em;             
+}          

@@ -1,0 +1,64 @@
+.nav-menu
+{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    max-height: 30em;
+}
+nav
+{
+    display: inline-flex;
+    align-items: center;
+    max-width: initial;
+    text-decoration: none;
+    text-align:center;
+    color: white;background: #212529;padding: 1rem 0;position: fixed;left: 0px;top: 0px;width: 100%;
+}
+nav a
+{
+    color: white;text-decoration: none;
+}
+.nav-menu-imagen
+{
+    text-align: center;
+    background-color: inherit;
+    width:15em;
+    display: flex;
+}
+#centrar_lista{
+    display:flex;
+    justify-content: center;
+    background:inherit;
+}
+.nav-menu ul
+{   
+    display:flex;
+    position: relative;
+    background: inherit;
+}
+.nav-menu--lista-object
+{
+    display:inline;
+    align-items: center;
+    text-align: center;
+    height:5em;
+    padding-right: 6em;
+    background:transparent;
+    background-image:url("flecha.png");
+    background-repeat: no-repeat;
+    background-size: 10em;
+}
+.nav-menu ul li a:hover
+{
+    color:purple;
+    
+
+}
+.nav-menu ul li a
+{
+    position:center;
+    width:20em; 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background:transparent;
+}
